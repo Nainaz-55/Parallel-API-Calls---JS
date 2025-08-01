@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="lab8a-v1">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1754057881071</CreatedAt>
+  <LastModifiedAt>1754058956813</LastModifiedAt>
+  <BasePaths>/lab8a/v1</BasePaths>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>jsc://sendRequests</Resource>
+    <Resource>jsc://sendRequests.js</Resource>
+    <Resource>jsc://processResponses.js</Resource>
+  </Resources>
+  <Policies>
+    <Policy>JS-SendRequests</Policy>
+    <Policy>JS-ProcessResponses</Policy>
+    <Policy>AM-BuildResponse</Policy>
+  </Policies>
+</APIProxy>
